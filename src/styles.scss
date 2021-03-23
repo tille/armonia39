@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'futura';
+    src: url('assets/fonts/futura-webfont/Futura-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'optima';
+    src: url('assets/fonts/optima-webfont/OPTIMA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body { height: 100%; }
+body {
+    margin: 0;
+    // font-family: Roboto, "Helvetica Neue", sans-serif;
+    //font-family: "optima", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-weight: normal; 
+    font-size: 0.9em;
+    // font-size: 0.9vw;
+}
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";

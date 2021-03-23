@@ -1,0 +1,12 @@
+<router-outlet name="navbar"></router-outlet>
+
+<article>
+  <div style="display: flex; justify-content: center; width: calc(100%)">
+    <img src="{{data.image_path}}">
+  </div>
+  
+  <h1>{{data.title}}</h1>
+  <div class="article-content-container">
+    <div class="article-content" [innerHTML]="data.content"></div>
+  </div>
+</article>

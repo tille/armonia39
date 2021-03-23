@@ -1,0 +1,119 @@
+<div class="container">
+  <header>
+    <div class="logo">
+      <a routerLink="/">
+        <img src="assets/images/logo2.png" alt="logo">
+      </a>
+      <h1>ARMONIA 39</h1>
+    </div>
+  
+    <a routerLink="/faq">
+      <button mat-button class="top-button-container button-container-first">
+          <div class="questions">
+            <p>Preguntas Frecuentes</p>
+            <i class="material-icons"> contact_support </i>
+          </div>
+        </button>
+    </a>
+
+    <a routerLink="/contact">
+      <button mat-button class="top-button-container">
+        <div class="join-us">
+          <p>¿Quieres ser mas&oacute;n?</p>
+          <i class="material-icons"> mail </i>
+        </div>
+      </button>
+    </a>
+  </header>
+    
+  <router-outlet></router-outlet>
+
+  <footer>
+    <div class="footer-top">
+
+      <div class="footer-left">
+        <mat-card class="history-box">
+          <img src="assets/images/logo2.png" width="80px">
+          <p>
+            Armonia39 es una logia masónica azul fundada en Medellín en el año 1991 la cual trabaja bajo los auspicios
+            de la gran logia de Colombia con sede en bogota, actualmente  bajo el rito escocés antiguo y aceptado.
+          </p>
+        </mat-card>
+        Siguenos en: 
+        <div class="social">
+          <a href="mailto:logiarmonia39@gmail.com?Subject=Contacto%20webPage" target="_top">
+            <img class="social-item" src="assets/images/gmail-2.png" width="35">
+          </a>
+          <a href="https://www.facebook.com/logiarmonia39/">
+            <img class="social-item" src="assets/images/facebook.png" width="28">
+          </a>
+          <a href="https://www.instagram.com/logiarmonia39">
+            <img class="social-item" src="assets/images/instagram-white.png" width="25">
+          </a>
+          <a href="https://twitter.com/logiarmonia39">
+            <img class="social-item" src="assets/images/twitter.png" width="40">
+          </a>
+        </div>
+      </div>
+        
+      <div class="divider"></div>
+
+      <div class="footer-right">
+        <div class="site-map" style="padding-left: 10px">
+          <i class="material-icons" style="color: white; vertical-align: middle; font-size: 32px"> pageview </i> 
+          <h3 style="vertical-align: middle; display: inline; color: #d6a936;">&nbsp;Mapa del sitio</h3>
+
+          <ul style="margin-top: 20px; color: #ccc; width: 150px; padding-left: 20px;">
+            <li> 
+              <a routerLink="/article/que_es_francmasoneria">
+                Que es Francmasoneria
+              </a>
+            </li>
+            <li>
+              <a routerLink="/article/nuestra_logia">
+                Nuestra Logia
+              </a>
+            </li>
+            <li>
+              <a routerLink="/article/ser_mason">
+                Ser Mason
+              </a>
+            </li>
+            <li>
+              <a routerLink="/faq">
+                Preguntas Frequentes
+              </a>
+            </li>
+            <li>
+              <a routerLink="/contact">
+                Quieres ser Mason?
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="contact-us">
+          <i class="material-icons" style="color: white; font-size: 32px; vertical-align: middle">
+            location_on
+          </i> 
+          <h3 style="vertical-align: middle; display: inline; color: #d6a936">&nbsp;Contacto</h3>
+
+          <ul style="color: #ccc; margin-top: 20px; width: 140px; padding-left: 25px;">
+            <li>Celular: 3225254517</li>
+            <li>Fijo: 254 50 32</li>
+            <li>logiarmonia39@gmail.com</li>
+            <li>Cr 45d # 59-12</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-center"></div>
+
+    <div class="footer-bottom">
+      <i class="material-icons" style="vertical-align: middle">copyright</i>
+      Copyright armonia39 - 2019
+    </div>
+  </footer>
+</div>

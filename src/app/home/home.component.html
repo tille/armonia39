@@ -1,0 +1,89 @@
+
+  
+  <section class="slider-container">
+    <div class="slider">
+        <img [src]="images[image_index]" alt="Random first slide">
+        <div class="item_overlay">
+          <div style="justify-self: start;"> 
+              <button mat-mini-fab color="primary" style="color: rgb(250, 250, 250);" (click)="sliderStep(false)">
+                <i class="material-icons"> chevron_left </i>  
+              </button>
+          </div>
+          <div style="justify-self: end;">
+            <button mat-mini-fab color="primary" style="color: rgb(250, 250, 250);" (click)="sliderStep(true)">
+              <i class="material-icons"> chevron_right </i>  
+            </button>
+          </div>
+        </div>
+    </div>
+    <div class="quote">
+      <h3 style="font-family: 'roboto'; font-size: 23px; margin-bottom: 10px; font-weight: 500;">
+        UGLE: Masonería Regular
+      </h3>
+      <p style="font-size: 18px; LETTER-SPACING: 0.5px; line-height: 25px; font-size: 16px; font-family: 'roboto'">
+        Adscrita a la Gran Logia de Colombia<br>
+        de AA:. LL:. y AA:. MM:.<br><br>
+        
+        Reconocida por la Gran Logia Unida de Inglaterra
+        y mas de 200 Grandes Logias Regulares al rededor del Mundo.
+      </p>
+    </div>
+  </section>
+  
+  <section class="content">
+    <div class="content1">
+
+        <mat-card class="content-card">
+            <mat-card-header class="cards-header">
+              <mat-card-title class="card-title">QUE ES FRANCMASONERIA</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image src="../assets/images/que-es-francmasoneria.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content class="tales">
+              <p style="font-family: optima; line-height: 20.5px;">
+                  La Francmasoneria o Masoneria es una de las mas antiguas fraternidades iniciaticas
+                  que tiene como fundamento la creencia en un Ser Supremo, expresado bajo el nombre
+                  de Gran Arquitecto del Universo ...
+                  <a routerLink="/article/que_es_francmasoneria" style="text-decoration: none; font-style: italic; color: deeppink;">Leer mas</a>
+              </p>
+            </mat-card-content>
+          </mat-card>
+
+    </div>
+    <div class="content2">
+
+        <mat-card class="content-card">
+            <mat-card-header class="cards-header">
+              <mat-card-title class="card-title">NUESTRA LOGIA</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image src="../assets/images/nuestra-logia.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content class="tales">
+              <p style="font-family: optima; line-height: 20.5px;">
+                  Medellin, aquel 7 de diciembre de 5990 E.·.D.·.L.·.V.·.L.·.., estaba luminoso y feliz, por la
+                  multitud de velitas encendidas en las aceras, como cada vuelta al sol desde que los viejos
+                  judios sefarditas ...
+                  <a routerLink="/article/nuestra_logia" style="text-decoration: none; font-style: italic; color: deeppink;">Leer mas</a>
+              </p>
+            </mat-card-content>
+          </mat-card>
+      
+    </div>
+    <div class="content3">
+
+        <mat-card class="content-card">
+            <mat-card-header class="cards-header">
+              <mat-card-title class="card-title">SER MASON</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image src="../assets/images/ser-mason.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content class="tales">
+              <p style="font-family: optima; line-height: 20.5px;">
+                  El ingreso en la Francmasoneria se fundamenta en una decision libre, individual y
+                  responsable. La masoneria no hace ningun tipo de proselitismo, por lo que cualquier
+                  solicitud debe emanar de ...
+                  <a routerLink="/article/ser_mason" style="text-decoration: none; font-style: italic; color: deeppink;">Leer mas</a>
+              </p>
+            </mat-card-content>
+          </mat-card>
+
+    </div>
+  </section>
+  

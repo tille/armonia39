@@ -1,0 +1,20 @@
+section {
+    display: flex;
+    align-items: center;
+    font-family: "roboto";
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 300px;
+
+    h1 {
+        margin-top: 50px;
+    }
+
+    div {
+        text-align: justify;
+    }
+}
+
+footer {
+    position: absolute;
+}

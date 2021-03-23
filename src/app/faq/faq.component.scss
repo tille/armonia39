@@ -1,0 +1,26 @@
+section {
+    display: flex;
+    align-items: center;
+    font-family: "roboto";
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        margin-top: 50px;
+    }
+
+    ol {
+        width: 80%;
+        text-align: justify;
+        margin: 30px 0 50px 0;
+        font-weight: bold;
+
+        li {
+            p {
+                font-size: 15px;
+                text-align: justify;
+                font-weight: normal;
+            }
+        }
+    }
+}

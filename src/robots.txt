@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://armonia39.com/sitemap.xml

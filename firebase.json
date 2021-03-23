@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "dist/ng-armonia39",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

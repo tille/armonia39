@@ -1,0 +1,31 @@
+article {
+    padding: 20px;
+    margin-top: 40px;
+
+    h1 {
+        margin: 40px 0 20px 0;
+        text-align: center;
+        font-size: 40px;
+        font-family: "optima";
+    }
+
+    img {
+        object-fit: cover;
+        max-height: 400px;
+        min-height: 400px;
+        width: 80%; border: solid 3px rgb(128, 128, 128);
+    }
+
+    .article-content-container {
+        font-size: 21px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .article-content {
+            margin: 0px 0 50px 0;
+            width: 80%;
+            text-align: justify;
+        }
+    }
+}
